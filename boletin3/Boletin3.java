@@ -25,5 +25,6 @@ public class Boletin3 {
         consumo.setLitros(156f);
         System.out.println("A velocidade media do 2º obxeto é "
                 + consumo.getvMed() + ".");
+        consumo.Visualizar();
     }
 }

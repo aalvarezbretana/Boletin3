@@ -10,6 +10,7 @@ package boletin3;
  * @author aalvarezbretana
  */
 public class Consumo {
+
     private float km;
     private float litros;
     private float vMed;
@@ -59,5 +60,8 @@ public class Consumo {
     public float getvMed() {
         return vMed;
     }
-}
 
+    public void Visualizar() {
+        System.out.println("A velocidade media é " + vMed + ".");
+    }
+}
